@@ -1,5 +1,5 @@
 import json
-from openai_client import create_openai_client
+from ollama_client import create_openai_client
 
 def extract_criteria_via_llm(prompt):
     client = create_openai_client()
