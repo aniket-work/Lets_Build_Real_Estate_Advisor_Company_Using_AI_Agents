@@ -3,7 +3,7 @@ Let's Build Real Estate Advisor Company Using AI Agents
 
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/how-i-built-supply-chain-optimization-using-ai-agents-84339654938c
+Full Article : [https://medium.com/@learn-simplified/lets-build-a-real-estate-advisory-company-using-ai-agents-59d6e2bac78a
 
 Picture this: You're in the market for a new home, overwhelmed by endless listings and conflicting advice. What if there was a smart, tireless assistant who could sift through all that data and find your perfect match? That's exactly what I set out to create. In this article, I'll walk you through how I built an AI-powered real estate advisory system from the ground up. It's a journey that combines cutting-edge technology with the age-old dream of finding the ideal place to call home.
 
