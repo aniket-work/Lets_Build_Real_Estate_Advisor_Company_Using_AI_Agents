@@ -1,0 +1,21 @@
+{
+    "openai": {
+        "base_url": "http://localhost:11434/v1",
+        "api_key": "ollama",
+        "max_retries": 25
+    },
+    "ollama": {
+        "model": "llama3.1",
+        "request_timeout": 600000
+    },
+    "agent": {
+        "max_iterations": 30,
+        "verbose": true
+    },
+    "house_data": {
+        "file_path": "data/sampledata.xlsx"
+    },
+    "geolocator": {
+        "user_agent": "house_locator"
+    }
+}

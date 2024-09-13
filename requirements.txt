@@ -1,0 +1,6 @@
+pandas
+openai
+openpyxl
+geopy
+llama-index-llms-ollama
+llama-index-core
