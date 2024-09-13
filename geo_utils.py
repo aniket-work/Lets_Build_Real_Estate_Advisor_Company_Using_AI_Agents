@@ -3,6 +3,7 @@ from geopy.geocoders import Nominatim
 from constants import GEOLOCATOR_CONFIG, US_STATE_ABBREV, ABBREV_TO_US_STATE, NEIGHBORING_STATES
 import pandas as pd
 
+
 def filter_by_distance(data, place_distance_is_from, max_distance):
     geolocator = Nominatim(user_agent=GEOLOCATOR_CONFIG['user_agent'])
     location = geolocator.geocode(place_distance_is_from)
@@ -23,6 +24,7 @@ def filter_by_distance(data, place_distance_is_from, max_distance):
     data = data.dropna(subset=['Distance'])
     return data[data['Distance'] <= max_distance]
 
+
 def get_state_abbrev(state):
     if state in US_STATE_ABBREV:
         return US_STATE_ABBREV[state]
@@ -30,6 +32,7 @@ def get_state_abbrev(state):
         return state
     else:
         raise ValueError(f"Invalid state: {state}")
+
 
 def get_neighboring_states(state):
     try:
