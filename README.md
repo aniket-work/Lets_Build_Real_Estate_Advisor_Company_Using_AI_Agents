@@ -1,27 +1,26 @@
 # Lets_Build_Real_Estate_Advisor_Company_Using_AI_Agents
-Lets Build Real Estate Advisor Company Using AI Agents
+Let's Build Real Estate Advisor Company Using AI Agents
 
 ## Introduction
 
 Full Article : [https://medium.com/@learn-simplified/how-i-built-supply-chain-optimization-using-ai-agents-84339654938c
 
-“From Data to Decisions” emphasizes the practical transformation of raw data into actionable insights, which is at the core of the system we’ve built.
-
-Have you ever wondered how big companies keep their shelves stocked just right, not too much, not too little? Well, I did, and that curiosity led me down a fascinating path. I’m about to tell you how I built a supply chain optimization system using AI agents. It’s like teaching a computer to be the world’s best stock manager, but for an entire company’s inventory!
+Picture this: You're in the market for a new home, overwhelmed by endless listings and conflicting advice. What if there was a smart, tireless assistant who could sift through all that data and find your perfect match? That's exactly what I set out to create. In this article, I'll walk you through how I built an AI-powered real estate advisory system from the ground up. It's a journey that combines cutting-edge technology with the age-old dream of finding the ideal place to call home.
 
 
-## Whats This Project About
+## What's This Project About
 
-This article is your roadmap to creating a cutting-edge supply chain optimization system using AI agents. We’ll walk you through the process of building a system that leverages large language models (LLMs) to perform critical supply chain tasks. You’ll learn how to create AI agents for demand forecasting, inventory optimization, supplier risk analysis, and generating actionable recommendations.
-
-We’ll explore the code behind each of these agents, showing you how to structure your system for maximum flexibility and efficiency. Along the way, we’ll also cover important aspects like error handling, data parsing, and creating user-friendly interfaces to interact with your AI-powered system.
+This article is a deep dive into creating an AI-powered real estate advisory system. I'll take you through the process of developing an intelligent agent that can understand complex property queries, extract key criteria, and provide tailored recommendations. We'll explore how to use language models to interpret natural language inputs, implement custom tools for filtering properties, and design a system that can handle the nuances of real estate searches. You'll see how we can combine various AI technologies to create a more interactive and personalized property search experience. Whether you're a tech enthusiast, a real estate professional, or just curious about the future of home buying, this article will give you insights into how AI is transforming the industry.
 
 ## Why Work on It?
 
-In today’s fast-paced business environment, AI isn’t just an advantage — it’s becoming a necessity. Companies that harness AI for supply chain management are seeing dramatic improvements in efficiency, cost reduction, and customer satisfaction. This article shows you, through the lens of a fictional company, how to implement these AI solutions in your own business.
+AI is rapidly changing the business landscape, and real estate is no exception. This article offers a practical example of how AI can be implemented in a traditional industry to create new value. By following along, you'll gain insights into:
+ - How AI can process complex, natural language queries and turn them into actionable data
+ - The process of building a custom AI agent tailored to a specific business need
+ - Techniques for making AI systems more robust and error-resistant
+ - The potential for AI to personalize and streamline customer experiences
 
-You’ll gain insights into how AI can predict demand trends, optimize inventory levels to reduce costs, assess supplier risks to prevent disruptions, and generate smart recommendations for your supply chain strategy. By understanding and implementing these techniques, you’ll be positioning your company at the forefront of supply chain innovation, ready to tackle the challenges of modern business with AI as your ally.
-
+While our company is fictional, the techniques and technologies discussed are very real and applicable across many industries. This article will give you a concrete understanding of how AI can be leveraged to create smarter, more efficient business processes.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -56,7 +55,7 @@ You’ll gain insights into how AI can predict demand trends, optimize inventory
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the 'Supply Chain Optimization Using AI Agents' project:
+Follow these steps to set up and run the 'Real Estate Advisory Company Using AI Agents' project:
 
 1. Navigate to your project directory:
    ```
@@ -71,14 +70,11 @@ Follow these steps to set up and run the 'Supply Chain Optimization Using AI Age
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - How I Built Supply Chain Optimization Using AI Agents
+## Run - Real Estate Advisory Company Using AI Agents
 
    ```bash 
-      # Run Payment Gateway FAST API
-      python -m backend.main
-      
-      # Run Payment Gateway FAST API
-      streamlit run frontend\streamlit_app.py
+      # Run Real Estate Advisory Company Using AI Agents
+      python app.py
       
    ```
 
